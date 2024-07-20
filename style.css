@@ -1,0 +1,35 @@
+body {
+    background-color: deeppink;
+    color:lightpink;
+    font-family: "Montserrat";
+}
+/* Barra de navegador */
+.barra{
+    position: fixed;
+    height: 100%;
+    width: 140px;
+    background-color: hotpink;
+    font-size: 12px;
+}
+#main{
+margin-left: 120px;
+}
+.sidebar-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 254, 255);
+}
+.sidebar-item:hover{
+    background-color: rgb(176, 123, 225);
+}
+a:visited{text-decoration: none;}
+a{text-decoration: none;}
+header{
+    text-align: center;
+}
+#header-image{
+    max-width: 70%;
+    height: auto;
+}
